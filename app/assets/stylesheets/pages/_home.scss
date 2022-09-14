@@ -1,1 +1,33 @@
 // Specific CSS for your home-page
+.pic-about {
+  margin: 20px 0 0 0;
+
+  .logo-img {
+    max-height: 250px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    display: block;
+    margin: 100px auto;
+  }
+  .top-description {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 10px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    align-items: initial;
+  }
+  h1 {
+    font-weight: bolder;
+    text-align: center;
+  }
+  .paragraphs-about {
+    margin: 20px 90px 120px 90px;
+    background-color: rgba(0, 0, 0, 0.01);
+    padding: 30px 100px 30px 150px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+}
